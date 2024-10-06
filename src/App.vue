@@ -8,7 +8,9 @@ import TheNav from './components/TheNav.vue'
     <TheNav />
   </div>
 
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style lang="scss">
