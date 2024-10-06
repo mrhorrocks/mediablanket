@@ -1,11 +1,13 @@
 <script setup>
-import TheHeader from '@/components/TheHeader.vue'
-import TheWelcome from '../components/TheWelcome.vue'
+import TheHero from '@/components/TheHero.vue'
+//
 </script>
 
 <template>
-  <main>
-    <TheHeader />
-    <TheWelcome />
-  </main>
+  <TheHero />
 </template>
+
+<style lang="scss">
+@import '@/assets/scss/partials/colours';
+//
+</style>

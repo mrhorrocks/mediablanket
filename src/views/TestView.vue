@@ -1,15 +1,12 @@
+<script setup>
+//
+</script>
+
 <template>
-  <div class="test">
-    <h1>This is an test page</h1>
-  </div>
+  <h1>Test page</h1>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .test {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
+<style lang="scss">
+@import '@/assets/scss/partials/colours';
+//
 </style>
