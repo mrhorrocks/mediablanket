@@ -23,7 +23,7 @@
       display: flex;
     }
     a {
-      background-color: $blue;
+      background-color: lighten($blue, 20%);
       padding: 1rem;
     }
   }
