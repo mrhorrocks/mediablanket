@@ -1,0 +1,108 @@
+.range-input {
+  position: relative;
+  z-index: 0;
+}
+
+label {
+  width: 100%;
+  display: inline-block;
+  padding: 1rem 0;
+}
+
+.updated-value {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  color: $first-colour;
+}
+
+/* Range Reset */
+input[type='range'] {
+  -webkit-appearance: none;
+  -moz-appearance: none; /* Firefox */
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Removes default focus */
+input[type='range']:focus {
+  outline: none;
+}
+
+/* Slider track */
+input[type='range']::-webkit-slider-runnable-track {
+  position: relative;
+  z-index: 10;
+  height: 0.5rem;
+  background-color: #ccc;
+  border-radius: 0.5rem;
+}
+
+/* Firefox slider track */
+input[type='range']::-moz-range-track {
+  position: relative;
+  z-index: 10;
+  height: 0.5rem;
+  background-color: #ccc;
+  border-radius: 0.5rem;
+}
+
+/* Thumb */
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -14px;
+  background-color: white;
+  border: 5px solid $first-colour;
+  outline: 0px solid white;
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 50%;
+}
+
+input[type='range']::-moz-range-thumb {
+  background-color: white;
+  border: 5px solid $first-colour;
+  outline: 0px solid white;
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 50%;
+}
+
+/* Thumb hover */
+input[type='range']::-webkit-slider-thumb:hover {
+  background-color: darken($green, 10%);
+  border: 5px solid white;
+  outline: 5px solid lighten($green, 10%);
+}
+
+input[type='range']::-moz-range-thumb:hover {
+  background-color: darken($green, 10%);
+  border: 5px solid white;
+  outline: 5px solid lighten($green, 10%);
+}
+
+/* Thumb active */
+/* input[type='range']::-webkit-slider-thumb:active {
+  background-color: $red;
+  outline: 5px solid darken($red, 10%);
+}
+
+input[type='range']::-moz-range-thumb:active {
+  background-color: $red;
+  outline: 5px solid darken($red, 10%);
+} */
+
+/* Focus on thumb */
+input[type='range']:focus::-webkit-slider-thumb {
+  outline-offset: 0rem;
+}
+
+input[type='range']:focus::-moz-range-thumb {
+  outline-offset: 0rem;
+}
