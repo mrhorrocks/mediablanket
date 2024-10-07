@@ -22,7 +22,7 @@ import PeriodRangeInput from './PeriodRangeInput.vue'
     <div class="container">
       <div class="homepage-hero grid md:cols-2">
         <div class="homepage-hero__title-area">
-          <h1>
+          <h1 class="dongle-bold">
             <span>Get a Car</span>
             <br />
             Finance Deal Today
@@ -49,7 +49,7 @@ import PeriodRangeInput from './PeriodRangeInput.vue'
 
         <!-- CALCULATOR AREA-->
         <div class="homepage-hero__quote-input">
-          <h2>How much would you <br />like to borrow?</h2>
+          <h2 class="dongle-bold">How much would you <br />like to borrow?</h2>
           <!-- FORM -->
           <form @submit.prevent="submitForm">
             <AmountRangeInput
@@ -97,7 +97,7 @@ import PeriodRangeInput from './PeriodRangeInput.vue'
       font-size: clamp(5rem, 8vw, 7rem);
       text-shadow: 0px 2px black;
     }
-    font-family: Dongle-Bold;
+    font-family: Dongle;
     color: $medium-grey;
     font-size: clamp(3rem, 6vw, 4rem);
     text-align: center;
@@ -108,7 +108,7 @@ import PeriodRangeInput from './PeriodRangeInput.vue'
     }
   }
   h2 {
-    font-family: Dongle-Bold;
+    font-family: Dongle;
     color: $medium-grey;
     font-size: clamp(2rem, 5vw, 3rem);
     line-height: 2rem;
