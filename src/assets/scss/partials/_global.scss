@@ -1,0 +1,12 @@
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+  position: relative;
+}
+
+body {
+  background-color: $body-bg;
+  color: #000;
+  font-family: RobotoCondensed-Regular, Arial, Helvetica, sans-serif;
+}
