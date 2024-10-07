@@ -1,5 +1,7 @@
 # mediablanket hero section
 
+![A sceenshot of this repo when sucessfully built](https://github.com/mrhorrocks/mrhorrocks.github.io/blob/main/img/mediablanket.png?raw=true 'mediablanket hero section')
+
 ## Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
