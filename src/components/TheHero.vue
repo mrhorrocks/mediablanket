@@ -70,6 +70,7 @@ import PeriodRangeInput from './PeriodRangeInput.vue'
 
 <style lang="scss">
 @import '@/assets/scss/partials/colours';
+@import '@/assets/scss/partials/type';
 //
 .homepage-hero {
   background-color: $hero-bg;
@@ -78,29 +79,30 @@ import PeriodRangeInput from './PeriodRangeInput.vue'
   > div {
     display: flex;
     flex-direction: column;
-    // justify-content: space-between;
   }
   h1 {
+    span {
+      color: darken($green, 10%);
+      font-size: clamp(5rem, 8vw, 7rem);
+      text-shadow: 0px 2px black;
+    }
+    font-family: Dongle-Bold;
     color: $medium-grey;
-    font-size: clamp(2rem, 4vw, 2.3rem);
+    font-size: clamp(3rem, 6vw, 4rem);
     text-align: center;
     margin: 1rem 0;
+    line-height: 3rem;
     @media (min-width: 768px) {
       text-align: left;
     }
-    span {
-      color: $first-colour;
-      font-weight: bold;
-      font-size: clamp(3rem, 5vw, 2.5rem);
-      text-shadow: 0px 2px black;
-    }
   }
   h2 {
+    font-family: Dongle-Bold;
     color: $medium-grey;
-    font-size: clamp(1rem, 9vw, 1.5rem);
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 2rem;
     text-align: center;
     margin: 1rem 0;
-    // font-weight: bold;
   }
   &__hero-car-container {
     background-color: transparent;
@@ -120,7 +122,7 @@ import PeriodRangeInput from './PeriodRangeInput.vue'
     padding: 0 2rem;
   }
   &__title-area {
-    padding: 0 2rem;
+    padding: 1rem 2rem;
     @media (min-width: 768px) {
       border-right: 1px solid #dae8ff;
     }

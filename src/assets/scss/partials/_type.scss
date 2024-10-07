@@ -1,18 +1,39 @@
-/* 
-Roboto:
-https://fonts.googleapis.com/css?family=Roboto
-*/
+/* Roboto */
 @font-face {
   font-family: 'Roboto';
-  src: local('Roboto'), url('/assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  src: local('Roboto'), url('@/assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
 }
 
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"); */
+/* Impact */
+@font-face {
+  font-family: 'Impact';
+  src: local('Impact'), url('@/assets/fonts/Impact/Impact.ttf') format('truetype');
+}
+
+/* Dongle Regular */
+@font-face {
+  font-family: 'Dongle';
+  src: local('Dongle'), url('@/assets/fonts/Dongle/Dongle-Regular.ttf') format('truetype');
+}
+
+/* Dongle Light */
+@font-face {
+  font-family: 'Dongle-light';
+  src: local('Dongle-light'), url('@/assets/fonts/Dongle/Dongle-Light.ttf') format('truetype');
+}
+
+/* Dongle Bold */
+@font-face {
+  font-family: 'Dongle-Bold';
+  src: local('Dongle-Bold'), url('@/assets/fonts/Dongle/Dongle-Bold.ttf') format('truetype');
+}
 
 h1 {
   font-size: 3.7rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
   font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
