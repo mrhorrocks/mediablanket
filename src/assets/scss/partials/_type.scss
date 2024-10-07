@@ -1,25 +1,29 @@
-/* Roboto */
-@font-face {
+/* @font-face {
   font-family: 'Roboto';
-  src: local('Roboto'), url('@/assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  src:
+    local('Roboto'),
+    url('/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
 }
 
-/* Dongle Regular */
 @font-face {
   font-family: 'Dongle';
-  src: local('Dongle'), url('@/assets/fonts/Dongle/Dongle-Regular.ttf') format('truetype');
+  src:
+    local('Dongle'),
+    url('/fonts/Dongle/Dongle-Regular.ttf') format('truetype');
 }
 
-/* Dongle Light */
 @font-face {
   font-family: 'Dongle-light';
-  src: local('Dongle-light'), url('@/assets/fonts/Dongle/Dongle-Light.ttf') format('truetype');
-}
+  src:
+    local('Dongle-light'),
+    url('/fonts/Dongle/Dongle-Light.ttf') format('truetype');
+} */
 
-/* Dongle Bold */
 @font-face {
   font-family: 'Dongle-Bold';
-  src: local('Dongle-Bold'), url('@/assets/fonts/Dongle/Dongle-Bold.ttf') format('truetype');
+  src:
+    local('Dongle-Bold'),
+    url('/fonts/Dongle/Dongle-Bold.ttf') format('truetype');
 }
 
 h1 {
