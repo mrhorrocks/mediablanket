@@ -3,7 +3,10 @@
 </script>
 
 <template>
-  <h1>About page</h1>
+  <div class="container">
+    <h2>About page</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+  </div>
 </template>
 
 <style lang="scss">

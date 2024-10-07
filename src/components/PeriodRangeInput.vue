@@ -35,7 +35,7 @@ const props = defineProps({
 })
 
 // Reactive data
-const rangeValue = ref(1000)
+const rangeValue = ref(0)
 
 // Methods
 const updateValue = () => {
@@ -75,11 +75,13 @@ label {
 }
 
 .updated-value {
+  color: $first-colour;
   width: 100%;
   display: inline-block;
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-style: italic;
+  font-weight: bold;
   margin-top: 1.5rem;
 }
 
@@ -144,14 +146,19 @@ label {
   width: 100%;
   display: inline-block;
   padding: 1rem 0;
+  font-weight: bold;
+  color: $first-colour;
 }
 
 .updated-value {
+  color: $first-colour;
   width: 100%;
   display: inline-block;
   text-align: center;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 1.5rem;
 }
 
 /*Range Reset*/

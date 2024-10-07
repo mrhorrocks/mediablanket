@@ -3,7 +3,10 @@
 </script>
 
 <template>
-  <h1>Test page</h1>
+  <div class="container">
+    <h2>Quotes page</h2>
+    <h3>Application form here</h3>
+  </div>
 </template>
 
 <style lang="scss">
