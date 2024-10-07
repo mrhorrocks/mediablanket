@@ -13,8 +13,7 @@ label {
   width: 100%;
   display: inline-block;
   text-align: center;
-  font-size: 1.5rem;
-  font-style: italic;
+  font-size: 2rem;
   font-weight: bold;
   margin-top: 1.5rem;
   color: $first-colour;
@@ -89,7 +88,7 @@ input[type='range']::-moz-range-thumb:hover {
 }
 
 /* Thumb active */
-input[type='range']::-webkit-slider-thumb:active {
+/* input[type='range']::-webkit-slider-thumb:active {
   background-color: $red;
   outline: 5px solid darken($red, 10%);
 }
@@ -97,7 +96,7 @@ input[type='range']::-webkit-slider-thumb:active {
 input[type='range']::-moz-range-thumb:active {
   background-color: $red;
   outline: 5px solid darken($red, 10%);
-}
+} */
 
 /* Focus on thumb */
 input[type='range']:focus::-webkit-slider-thumb {

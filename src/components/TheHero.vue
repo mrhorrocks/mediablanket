@@ -34,6 +34,17 @@ import PeriodRangeInput from './PeriodRangeInput.vue'
               <!-- Car picture -->
             </div>
           </div>
+          <div class="homepage-hero__icons">
+            <div>
+              <!-- Tick Icon -->
+            </div>
+            <div>
+              <!-- Tick Icon -->
+            </div>
+            <div>
+              <!-- Tick Icon -->
+            </div>
+          </div>
         </div>
 
         <!-- CALCULATOR AREA-->
@@ -102,16 +113,12 @@ import PeriodRangeInput from './PeriodRangeInput.vue'
     font-size: clamp(2rem, 5vw, 3rem);
     line-height: 2rem;
     text-align: center;
-    margin: 1rem 0;
+    margin: 2rem 0 0;
   }
   &__hero-car-container {
     background-color: transparent;
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid #dae8ff;
-    @media (min-width: 768px) {
-      border: 0px;
-    }
   }
   &__hero-car {
     margin-top: 2rem;
@@ -122,13 +129,34 @@ import PeriodRangeInput from './PeriodRangeInput.vue'
     padding: 0 2rem;
   }
   &__title-area {
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dae8ff;
     @media (min-width: 768px) {
       border-right: 1px solid #dae8ff;
+    }
+    @media (min-width: 1024px) {
+      padding: 1rem 2rem;
     }
   }
   &__quote-input {
     padding: 0 3rem;
+    margin: 2rem;
+    background-color: lighten($first-colour, 33%);
+    border-radius: 6rem 0rem 5rem 0rem;
+  }
+  &__icons {
+    display: flex;
+    justify-content: space-evenly;
+    > div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 50px;
+      background-color: lighten($medium-grey, 60%);
+      border-radius: 50%;
+      background: url('/img/tick.png') 50% 50% / 70% no-repeat transparent;
+    }
   }
 }
 </style>
