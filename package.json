@@ -11,6 +11,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "rollup": "^4.24.0",
     "sass": "^1.79.4",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
@@ -22,7 +23,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-vue": "^9.23.0",
     "prettier": "^3.2.5",
-    "vite": "^5.3.1",
+    "vite": "^5.4.8",
     "vite-plugin-vue-devtools": "^7.3.1"
   }
 }
